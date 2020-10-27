@@ -1,21 +1,10 @@
-##Node.js01
+## Node.js01
 
-
-
-
-
-##<img src="assets/logo.jpg" style="float:left;width:120px;margin-top:-48px;" />
-
-- 课堂目标
-  
+- 目标
   - nodejs的安装及使用
-  
   - 服务端及客户端
-  
   - commonjs规范
-  
   - fs模块的使用(文件操作及目录操作)
-  
   - stream
   - buffer
   
@@ -26,24 +15,21 @@
   - 内置模块fs的使用
   - buffer及stream
 
-###Node.js介绍
+### Node.js介绍
 
----
-
-- Node.js 诞生于2009年，Node.js采用C++语言编写而成，是 一个Javascript的运行环境。Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境 ，让JavaScript的运行脱离浏览器端，可以使用JavaScript语言 书写服务器端代码。
+> Node.js 诞生于2009年，Node.js采用C++语言编写而成，是 一个Javascript的运行环境。Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境 ，让JavaScript的运行脱离浏览器端，可以使用JavaScript语言 书写服务器端代码。
 
 ### 安装Node.js
 
-​	[Node.js官网](https://nodejs.org)下载稳定版本,node偶数版本为稳定版本，奇数版本为非稳定版本。
+>[Node.js官网](https://nodejs.org)下载稳定版本,node偶数版本为稳定版本，奇数版本为非稳定版本。
 
 - mac 直接安装  或者 brew来安装
-
 - 安装完Node.js会自动安装NPM(Node Package Manager)：包管理工具；
 - 通过指令 node -v 来查看是否安装完成和查看node版本号；npm -v 来查看npm版本。
 
-###使用Node.js实现第一个服务器
+### 使用Node.js实现第一个服务器
 
-初步感受Node.js
+> 初步感受Node.js
 
 ```js
 //引入http模块
